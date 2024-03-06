@@ -163,4 +163,70 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <fields>
+        <fullName>Error__c</fullName>
+        <externalId>false</externalId>
+        <label>Error</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Method</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Purge_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate + 30</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Purge Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>EndPoint_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>EndPoint URL</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Request_Body__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Body</label>
+        <length>131000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Response_Body__c</fullName>
+        <externalId>false</externalId>
+        <label>Response Body</label>
+        <length>131000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Created_Date_and_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Date and Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
 </CustomObject>
